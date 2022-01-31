@@ -1,0 +1,47 @@
+input, select, button{
+    font-size: inherit;
+}
+.task-form, .group-input-form{
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: solid 1px #ddd;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.task-desrription-inp, .group-name-inp{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.4em;
+    font-size: 16px;
+    margin-bottom: 1em;
+    border: solid 2px #ddd;
+}
+.date-label, .group-label{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.task-date-inp{
+    cursor: text;
+}
+.task-date-inp, .select-group{
+    box-sizing: border-box;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    height: 1.5em;
+    width: 40%;
+}
+.add-task-btn, .add-group-btn{
+    padding: 0.1em 0.7em 0.1em 0.7em;
+}
+.color-picker-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.color-picker{
+    margin-left: 2em;
+}

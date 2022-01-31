@@ -1,0 +1,55 @@
+.task{
+    text-align: center;
+}
+.todo-list-container{
+    vertical-align: middle;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+.todo-list-container thead{
+    background-color: rgba(110, 100, 100, 0.116);
+}
+.todo-list-container td, .todo-list-container th{
+    word-wrap: break-word;
+    border-bottom: 1px solid #ddd;
+    padding: 0.3em;
+}
+
+.task-description{
+    width: 40%;
+}
+.task-date{
+    width: 15%;
+}
+.task-group{
+    width: 10%;
+}
+.task-status{
+    width: 15%;
+}
+.task-status{
+    width: 15%;
+}
+.task-delete{
+    width: 5%;
+}
+.status-select{
+    font-weight: inherit;
+    text-align: inherit;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    color: inherit;
+    background-color: inherit;
+}
+
+.delete-btn{
+    border: none;
+    background-color: white;
+    font-size: inherit;
+}
+.delete-btn:hover{
+    color: rgba(253, 7, 7, 0.87);
+}

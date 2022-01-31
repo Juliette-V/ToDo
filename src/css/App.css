@@ -1,0 +1,29 @@
+.App{
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 10em;
+}
+header{
+    text-align: center;
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    font-size: 1.1em;
+    color: #494040;
+    background: #FFFFFF;
+    text-shadow: 0.8px 0.8px 0 #bcbcbc, 1.6px 1.6px 0 #9c9c9c;
+}
+button, select{
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+.group{
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
